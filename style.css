@@ -577,3 +577,144 @@ body {
     }
   }
   
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    /* General */
+    .wrapper {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+
+    /* Navigation */
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .navbar li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Header */
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    img.portrait {
+        width: 150px;
+    }
+
+    /* About Section */
+    .about-content {
+        padding: 0 10px;
+    }
+
+    .about-content p {
+        font-size: 1em;
+    }
+
+    /* ACP Section */
+    .acp-content {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .acp-video {
+        margin-top: 2rem;
+    }
+
+    .acp-benefits {
+        padding: 1.5rem;
+    }
+
+    /* Services Slider */
+    .leistung-content {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .leistung-bild {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+
+    .slider-nav button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* Feedback Section */
+    .feedback-container {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .feedback-card {
+        margin-bottom: 1rem;
+    }
+
+    /* Contact Form */
+    .kontakt-container {
+        padding: 0 10px;
+    }
+
+    .kontakt-form {
+        padding: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+  }
+  
+  /* Small Mobile Devices */
+  @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+    }
+
+    .leistung-text h3 {
+        font-size: 1.2em;
+    }
+
+    .feedback-text {
+        font-size: 1em;
+    }
+
+    .submit-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+  }
+  
+  /* Landscape Mode */
+  @media (max-height: 500px) and (orientation: landscape) {
+    .navbar {
+        position: relative;
+    }
+
+    .leistung-content {
+        flex-direction: row;
+    }
+
+    .leistung-bild {
+        width: 40%;
+        height: auto;
+    }
+  }
+  
