@@ -2,19 +2,19 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('blumen.png') no-repeat center center fixed;
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('blumen.png') no-repeat center center fixed;
   background-size: cover;
   color: #222;
 }
 
 .wrapper {
-  background-color: rgba(20, 20, 20, 0.85);
+  background-color: rgba(200, 240, 200, 0.95);
   max-width: 960px;
   margin: 40px auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
-  color: #fff;
+  color: #222;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #ff7f32;
+  color: #8bc34a;
 }
 
 header p {
@@ -48,7 +48,7 @@ section {
 }
 
 section h2 {
-  color: #ff7f32;
+  color: #8bc34a;
   margin-bottom: 10px;
 }
 
@@ -58,13 +58,13 @@ ul {
 }
 
 a {
-  color: #ff7f32;
+  color: #8bc34a;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #ff7f32;
+  color: #8bc34a;
 }
 
 .gallery {
@@ -85,7 +85,7 @@ a:hover {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: rgba(20, 20, 20, 0.85);
+  background-color: rgba(200, 240, 200, 0.95);
   z-index: 999;
   padding: 10px 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -102,14 +102,14 @@ a:hover {
 
 .navbar li a {
   text-decoration: none;
-  color: #ff7f32;
+  color: #8bc34a;
   font-weight: bold;
   font-size: 1.1em;
   transition: color 0.3s;
 }
 
 .navbar li a:hover {
-  color: #ff7f32;
+  color: #8bc34a;
 }
 
 
@@ -153,13 +153,13 @@ footer {
   display: flex;
   align-items: center;
   gap: 30px;
-  background: rgba(20, 20, 20, 0.85);
+  background: rgba(200, 240, 200, 0.95);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 900px;
   margin: 0 auto;
-  color: #fff;
+  color: #222;
 }
 
 .leistung-bild {
@@ -175,7 +175,7 @@ footer {
 }
 
 .leistung-text h3 {
-  color: #ff7f32;
+  color: #8bc34a;
   margin-bottom: 15px;
   font-size: 1.5em;
 }
@@ -205,7 +205,7 @@ transform: translateY(-50%);
 }
 
 .slider-nav button {
-  background: rgba(255, 127, 50, 0.8);
+  background: rgba(139, 195, 74, 0.8);
   color: white;
   border: none;
   width: 50px;
@@ -221,12 +221,12 @@ transform: translateY(-50%);
 }
 
 .slider-nav button:hover {
-  background: #ff7f32;
+  background: #8bc34a;
   transform: scale(1.1);
 }
 
 .slider-nav button:disabled {
-  background: rgba(255, 127, 50, 0.3);
+  background: rgba(139, 195, 74, 0.3);
   cursor: not-allowed;
 }
 
@@ -241,13 +241,13 @@ transform: translateY(-50%);
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 127, 50, 0.3);
+  background: rgba(139, 195, 74, 0.3);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
-  background: #ff7f32;
+  background: #8bc34a;
   transform: scale(1.2);
 }
 
@@ -291,13 +291,13 @@ transform: translateY(-50%);
 }
 
 .about-content .philosophy {
-  border-left: 3px solid #ff7f32;
+  border-left: 3px solid #8bc34a;
   padding-left: 1.5rem;
   margin-left: 1rem;
 }
 
 .about-content .approach {
-  background-color: rgba(255, 127, 50, 0.05);
+  background-color: rgba(139, 195, 74, 0.08);
   padding: 1.5rem;
   border-radius: 8px;
 }
@@ -306,23 +306,23 @@ transform: translateY(-50%);
   font-style: italic;
   text-align: center;
   font-size: 1.2em;
-  color: #ff7f32;
+  color: #8bc34a;
   margin-top: 2rem;
   padding: 1rem;
-  border-top: 1px solid #ff7f32;
-  border-bottom: 1px solid #ff7f32;
+  border-top: 1px solid #8bc34a;
+  border-bottom: 1px solid #8bc34a;
 }
 
 /* ACP Section Styling */
 #acp {
-  background-color: rgba(255, 127, 50, 0.05);
+  background-color: rgba(139, 195, 74, 0.08);
   padding: 3rem 0;
   margin: 2rem 0;
 }
 
 #acp h2 {
   text-align: center;
-  color: #ff7f32;
+  color: #8bc34a;
   margin-bottom: 2rem;
 }
 
@@ -346,15 +346,15 @@ transform: translateY(-50%);
 }
 
 .acp-benefits {
-  background: rgba(20, 20, 20, 0.85);
+  background: rgba(200, 240, 200, 0.95);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  color: #fff;
+  color: #222;
 }
 
 .acp-benefits h3 {
-  color: #ff7f32;
+  color: #8bc34a;
   margin-bottom: 1rem;
 }
 
@@ -371,7 +371,7 @@ transform: translateY(-50%);
 
 .acp-benefits li:before {
   content: "•";
-  color: #ff7f32;
+  color: #8bc34a;
   position: absolute;
   left: 0;
   font-size: 1.2em;
@@ -409,14 +409,14 @@ transform: translateY(-50%);
 
 /* Kontakt Section Styling */
 #kontakt {
-  background-color: rgba(255, 127, 50, 0.05);
+  background-color: rgba(139, 195, 74, 0.08);
   padding: 3rem 0;
   margin: 2rem 0;
 }
 
 #kontakt h2 {
   text-align: center;
-  color: #ff7f32;
+  color: #8bc34a;
   margin-bottom: 2rem;
 }
 
@@ -451,7 +451,7 @@ transform: translateY(-50%);
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #ff7f32;
+  color: #8bc34a;
   font-weight: 500;
 }
 
@@ -468,12 +468,12 @@ transform: translateY(-50%);
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #ff7f32;
-  box-shadow: 0 0 0 2px rgba(255, 127, 50, 0.2);
+  border-color: #8bc34a;
+  box-shadow: 0 0 0 2px rgba(139, 195, 74, 0.2);
 }
 
 .submit-btn {
-  background-color: #ff7f32;
+  background-color: #8bc34a;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -485,27 +485,27 @@ transform: translateY(-50%);
 }
 
 .submit-btn:hover {
-  background-color: #ff7f32;
+  background-color: #8bc34a;
 }
 
 /* Contact Button Styling */
 .contact-button {
   display: inline-block;
   margin-top: 1.5rem;
-  background: #ff7f32;
+  background: #8bc34a;
   color: #fff;
   font-weight: bold;
   padding: 1rem 2.5rem;
   border: none;
   border-radius: 30px;
   font-size: 1.1em;
-  box-shadow: 0 2px 8px rgba(255,127,50,0.15);
+  box-shadow: 0 2px 8px rgba(139,195,74,0.15);
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
   text-decoration: none;
 }
 .contact-button:hover {
-  background: #ff7f32;
+  background: #8bc34a;
   color: #fff;
   transform: translateY(-2px) scale(1.04);
   text-decoration: none;
