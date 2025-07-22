@@ -2,18 +2,19 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('hintergrund.jpg') no-repeat center center fixed;
+  background: url('blumen.png') no-repeat center center fixed;
   background-size: cover;
   color: #222;
 }
 
 .wrapper {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(20, 20, 20, 0.85);
   max-width: 960px;
   margin: 40px auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  color: #fff;
 }
 
 header {
@@ -24,12 +25,12 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #2e7d32;
+  color: #ff7f32;
 }
 
 header p {
   font-style: italic;
-  color: #4caf50;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -47,7 +48,7 @@ section {
 }
 
 section h2 {
-  color: #388e3c;
+  color: #ff7f32;
   margin-bottom: 10px;
 }
 
@@ -57,12 +58,13 @@ ul {
 }
 
 a {
-  color: #2e7d32;
+  color: #ff7f32;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #ff7f32;
 }
 
 .gallery {
@@ -83,7 +85,7 @@ a:hover {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(20, 20, 20, 0.85);
   z-index: 999;
   padding: 10px 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -100,14 +102,14 @@ a:hover {
 
 .navbar li a {
   text-decoration: none;
-  color: #2e7d32;
+  color: #ff7f32;
   font-weight: bold;
   font-size: 1.1em;
   transition: color 0.3s;
 }
 
 .navbar li a:hover {
-  color: #1b5e20;
+  color: #ff7f32;
 }
 
 
@@ -151,12 +153,13 @@ footer {
   display: flex;
   align-items: center;
   gap: 30px;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(20, 20, 20, 0.85);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 900px;
   margin: 0 auto;
+  color: #fff;
 }
 
 .leistung-bild {
@@ -172,7 +175,7 @@ footer {
 }
 
 .leistung-text h3 {
-  color: #2e7d32;
+  color: #ff7f32;
   margin-bottom: 15px;
   font-size: 1.5em;
 }
@@ -202,7 +205,7 @@ transform: translateY(-50%);
 }
 
 .slider-nav button {
-  background: rgba(46, 125, 50, 0.8);
+  background: rgba(255, 127, 50, 0.8);
   color: white;
   border: none;
   width: 50px;
@@ -218,12 +221,12 @@ transform: translateY(-50%);
 }
 
 .slider-nav button:hover {
-  background: rgba(46, 125, 50, 1);
+  background: #ff7f32;
   transform: scale(1.1);
 }
 
 .slider-nav button:disabled {
-  background: rgba(46, 125, 50, 0.3);
+  background: rgba(255, 127, 50, 0.3);
   cursor: not-allowed;
 }
 
@@ -238,13 +241,13 @@ transform: translateY(-50%);
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(46, 125, 50, 0.3);
+  background: rgba(255, 127, 50, 0.3);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
-  background: #2e7d32;
+  background: #ff7f32;
   transform: scale(1.2);
 }
 
@@ -284,17 +287,17 @@ transform: translateY(-50%);
 
 .about-content .intro {
   font-size: 1.1em;
-  color: #333;
+  color: #fff;
 }
 
 .about-content .philosophy {
-  border-left: 3px solid #4caf50;
+  border-left: 3px solid #ff7f32;
   padding-left: 1.5rem;
   margin-left: 1rem;
 }
 
 .about-content .approach {
-  background-color: rgba(76, 175, 80, 0.05);
+  background-color: rgba(255, 127, 50, 0.05);
   padding: 1.5rem;
   border-radius: 8px;
 }
@@ -303,23 +306,23 @@ transform: translateY(-50%);
   font-style: italic;
   text-align: center;
   font-size: 1.2em;
-  color: #2e7d32;
+  color: #ff7f32;
   margin-top: 2rem;
   padding: 1rem;
-  border-top: 1px solid #4caf50;
-  border-bottom: 1px solid #4caf50;
+  border-top: 1px solid #ff7f32;
+  border-bottom: 1px solid #ff7f32;
 }
 
 /* ACP Section Styling */
 #acp {
-  background-color: rgba(76, 175, 80, 0.05);
+  background-color: rgba(255, 127, 50, 0.05);
   padding: 3rem 0;
   margin: 2rem 0;
 }
 
 #acp h2 {
   text-align: center;
-  color: #2e7d32;
+  color: #ff7f32;
   margin-bottom: 2rem;
 }
 
@@ -343,14 +346,15 @@ transform: translateY(-50%);
 }
 
 .acp-benefits {
-  background: white;
+  background: rgba(20, 20, 20, 0.85);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  color: #fff;
 }
 
 .acp-benefits h3 {
-  color: #2e7d32;
+  color: #ff7f32;
   margin-bottom: 1rem;
 }
 
@@ -367,7 +371,7 @@ transform: translateY(-50%);
 
 .acp-benefits li:before {
   content: "•";
-  color: #4caf50;
+  color: #ff7f32;
   position: absolute;
   left: 0;
   font-size: 1.2em;
@@ -405,14 +409,14 @@ transform: translateY(-50%);
 
 /* Kontakt Section Styling */
 #kontakt {
-  background-color: rgba(76, 175, 80, 0.05);
+  background-color: rgba(255, 127, 50, 0.05);
   padding: 3rem 0;
   margin: 2rem 0;
 }
 
 #kontakt h2 {
   text-align: center;
-  color: #2e7d32;
+  color: #ff7f32;
   margin-bottom: 2rem;
 }
 
@@ -433,10 +437,11 @@ transform: translateY(-50%);
 }
 
 .kontakt-form {
-  background: white;
+  background: rgba(20, 20, 20, 0.85);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  color: #fff;
 }
 
 .form-group {
@@ -446,7 +451,7 @@ transform: translateY(-50%);
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #2e7d32;
+  color: #ff7f32;
   font-weight: 500;
 }
 
@@ -463,12 +468,12 @@ transform: translateY(-50%);
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4caf50;
-  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+  border-color: #ff7f32;
+  box-shadow: 0 0 0 2px rgba(255, 127, 50, 0.2);
 }
 
 .submit-btn {
-  background-color: #2e7d32;
+  background-color: #ff7f32;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -480,7 +485,30 @@ transform: translateY(-50%);
 }
 
 .submit-btn:hover {
-  background-color: #1b5e20;
+  background-color: #ff7f32;
+}
+
+/* Contact Button Styling */
+.contact-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #ff7f32;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px rgba(255,127,50,0.15);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+.contact-button:hover {
+  background: #ff7f32;
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -496,12 +524,12 @@ transform: translateY(-50%);
 /* Feedback Section Styling */
 #feedback {
   padding: 4rem 0;
-  background: linear-gradient(135deg, rgba(76, 175, 80, 0.05) 0%, rgba(46, 125, 50, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(255, 127, 50, 0.05) 0%, rgba(255, 127, 50, 0.05) 100%);
 }
 
 #feedback h2 {
   text-align: center;
-  color: #2e7d32;
+  color: #ff7f32;
   margin-bottom: 3rem;
 }
 
@@ -515,10 +543,11 @@ transform: translateY(-50%);
 }
 
 .feedback-card {
-  background: white;
+  background: rgba(20, 20, 20, 0.85);
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  color: #fff;
 }
 
 .feedback-card:hover {
@@ -536,7 +565,7 @@ transform: translateY(-50%);
   top: 10px;
   left: 15px;
   font-size: 4rem;
-  color: rgba(76, 175, 80, 0.1);
+  color: rgba(255, 127, 50, 0.1);
   font-family: Georgia, serif;
 }
 
@@ -550,13 +579,13 @@ transform: translateY(-50%);
 }
 
 .feedback-author {
-  border-top: 1px solid rgba(76, 175, 80, 0.2);
+  border-top: 1px solid rgba(255, 127, 50, 0.2);
   padding-top: 1rem;
 }
 
 .feedback-author .name {
   font-weight: 600;
-  color: #2e7d32;
+  color: #ff7f32;
   margin: 0;
 }
 
@@ -627,6 +656,10 @@ transform: translateY(-50%);
       padding: 8px;
       text-align: center;
       font-size: 1em;
+  }
+
+  .navbar {
+    display: none;
   }
 
   /* About Section */
