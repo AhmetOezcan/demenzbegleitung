@@ -25,7 +25,7 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #8bc34a;
+  color: #222;
 }
 
 header p {
@@ -48,7 +48,7 @@ section {
 }
 
 section h2 {
-  color: #8bc34a;
+  color: #222;
   margin-bottom: 10px;
 }
 
@@ -58,13 +58,13 @@ ul {
 }
 
 a {
-  color: #8bc34a;
+  color: #222;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #8bc34a;
+  color: #222;
 }
 
 .gallery {
@@ -102,14 +102,14 @@ a:hover {
 
 .navbar li a {
   text-decoration: none;
-  color: #8bc34a;
+  color: #222;
   font-weight: bold;
   font-size: 1.1em;
   transition: color 0.3s;
 }
 
 .navbar li a:hover {
-  color: #8bc34a;
+  color: #222;
 }
 
 
@@ -175,7 +175,7 @@ footer {
 }
 
 .leistung-text h3 {
-  color: #8bc34a;
+  color: #222;
   margin-bottom: 15px;
   font-size: 1.5em;
 }
@@ -306,7 +306,7 @@ transform: translateY(-50%);
   font-style: italic;
   text-align: center;
   font-size: 1.2em;
-  color: #8bc34a;
+  color: #222;
   margin-top: 2rem;
   padding: 1rem;
   border-top: 1px solid #8bc34a;
@@ -354,7 +354,7 @@ transform: translateY(-50%);
 }
 
 .acp-benefits h3 {
-  color: #8bc34a;
+  color: #222;
   margin-bottom: 1rem;
 }
 
